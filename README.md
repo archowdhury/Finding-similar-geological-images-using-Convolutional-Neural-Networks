@@ -14,9 +14,6 @@ The complexity lies in the fact that we cannot use Transfer Learning to classify
 
 The approach: 
 
-•	We first need to identify which of the categories the input image belongs to
-•	Once that is identified we'll select "N" similar images from the corresponding folder
-•	For obtaining similar images we'll use the "Structural Similarity Index" (SSIM) which is conveniently provided as part of the scikit-image package
-•	The SSIM values range from 0 to 1, 1 being a perfect match
+We first need to identify which of the categories the input image belongs to. Once that is identified we'll select "N" similar images from the corresponding folder. For obtaining similar images we'll use the "Structural Similarity Index" (SSIM) which is conveniently provided as part of the scikit-image package. The SSIM values range from 0 to 1, 1 being a perfect match
 
 
